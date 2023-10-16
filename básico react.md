@@ -52,6 +52,7 @@
      ```
 
 Con estos puntos, tienes un entendimiento básico sobre cómo crear componentes en React y cómo utilizar `props` para pasar datos entre componentes.
+
 ### 2. Estado y Ciclo de Vida:
 
 En React, cada componente tiene su propio estado y ciclo de vida. El estado es una forma de almacenar información que puede cambiar con el tiempo y afectar el comportamiento y la apariencia del componente.
@@ -115,6 +116,7 @@ class Ejemplo extends React.Component {
 ```
 
 El manejo del estado y los métodos del ciclo de vida son cruciales en React, ya que permiten a los desarrolladores controlar el comportamiento del componente y responder a los cambios en el tiempo, asegurando que la UI se actualice de manera eficiente y precisa.
+
 ### 3. **Hooks**:
 
 En React, los Hooks son funciones que permiten a los componentes funcionales usar estado y otras características de React. Se introdujeron en la versión 16.8 para permitir a los componentes funcionales tener efectos secundarios.
@@ -193,6 +195,7 @@ class MiForm extends React.Component {
 En este código, `handleChange` actualiza el estado del componente cada vez que el usuario introduce datos, y `handleSubmit` se encarga de procesar el formulario cuando el usuario lo envía.
 
 Las diferencias clave en cómo React maneja eventos y formularios pueden requerir un cambio de mentalidad si estás acostumbrado a trabajar con HTML y JavaScript tradicional, pero las abstracciones proporcionadas por React permiten un mayor control y una estructura de código más limpia.
+
 ### 5. **Routing**:
 
 En aplicaciones de página única (SPA), el enrutamiento es crucial para la navegación entre diferentes vistas sin recargar la página. React Router es una biblioteca estándar para lograr esto en React.
@@ -262,7 +265,7 @@ function RutaProtegida({ autenticado }) {
 
 React Router es una herramienta poderosa y flexible que se integra perfectamente con React, proporcionando una manera robusta de manejar el enrutamiento en aplicaciones de página única.
 
-### Manejo del Estado Global:
+### 6. Manejo del Estado Global:
 
 En aplicaciones React más grandes, gestionar el estado a nivel local en los componentes no siempre es suficiente. Aquí es donde entran en juego soluciones para el manejo del estado global como la Context API y Redux.
 
@@ -419,6 +422,7 @@ SSG es el proceso de generar páginas estáticas en tiempo de compilación, que 
   - La necesidad de re-generar y desplegar el sitio para actualizar el contenido.
 
 Ambas técnicas ofrecen maneras eficaces de mejorar la SEO y la percepción del rendimiento, aunque con diferencias clave. SSR es más adecuado para aplicaciones dinámicas, mientras que SSG es ideal para sitios con contenido estático o que cambia infrecuentemente. La elección entre SSR y SSG dependerá de los requisitos específicos del proyecto y las prioridades en términos de SEO, rendimiento y mantenimiento.
+
 ### 10. **Principios de React**:
 
 React es una biblioteca robusta y flexible para construir interfaces de usuario, y sus principios fundamentales ayudan a los desarrolladores a mantener un código estructurado y fácil de mantener. Aquí se presentan los principios clave:
